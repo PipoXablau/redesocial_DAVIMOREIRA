@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.icon {
+    width: 150px;
+    padding: 5px;
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.nickname {
+    text-align: center;
+    font-size: 24px;
+}
+
+.username {
+    text-align: center;
+    font-size: 0.8em;
+    color: #333;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(204, 204, 204, 0.5);
+    backdrop-filter: blur(5px);
+    height: 58.8em;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: #5555;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.solido {
+    justify-content: baseline;
+    background-color: #333;
+    width: 70%;
+    height: 58em;
+    border-radius: 20px;
+}
